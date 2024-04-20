@@ -1,0 +1,123 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/darwin-op/protos/Darwin-op.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/darwin-op/protos/RobotisOp2.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.02017437167362194 0.9268151266131226 -0.37497562028574105 0.11597029076473744
+  position -1.873373106120312 -0.21910908056511796 0.327797900010434
+}
+TexturedBackground {
+  skyColor [
+    0 0 0
+    0 0 0
+    0.698039 0.666667 0.682353
+  ]
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+  floorTileSize 0.9 0.3
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Darwin-op {
+  hidden position_0_0 -4.379507732870675e-08
+  hidden position_0_1 -0.09999506453358517
+  hidden position_0_2 0.09999506141791849
+  hidden position_0_3 0.8599937885036681
+  hidden position_0_4 -0.8599992261025631
+  hidden rotation_10 0.5774169520266926 0.5773169248820406 0.5773169248835063 2.094399975791269
+  hidden position_10_0 0.3410512217785254
+  hidden rotation_11 0.9999999999999999 0 0 0.4443487782214669
+  hidden rotation_15 0.5388886556154315 0.5956508725864412 0.5956501110853619 2.153077299001199
+  hidden position_15_0 0.002533542179731949
+  hidden rotation_16 0 0 -1 0.002533542179814956
+  hidden position_16_0 0.7399947659407446
+  hidden rotation_17 -1 0 0 0.7399947659407449
+  hidden position_17_0 -0.9999977166388637
+  hidden rotation_18 1 0 0 0.9999977166388636
+  hidden position_18_0 -0.4700021165665502
+  hidden rotation_19 -1 0 0 0.47000211656655017
+  hidden position_19_0 -1.2605138276378797e-06
+  hidden rotation_20 0 0 -1 1.2605360735986798e-06
+  hidden rotation_21 0.6157917613420733 0.5571360249641288 0.5571354919141273 2.037678131452551
+  hidden position_21_0 -0.002333394191824256
+  hidden rotation_22 0 0 1 0.00233339419177203
+  hidden position_22_0 -0.7399947497705357
+  hidden rotation_23 -1 0 0 0.7399947497705356
+  hidden position_23_0 0.9999977204579713
+  hidden rotation_24 0.9999999999999999 0 0 0.9999977204579715
+  hidden position_24_0 0.4700021175915874
+  hidden rotation_25 -0.9999999999999999 0 0 0.4700021175915872
+  hidden position_25_0 1.2627804817384042e-06
+  hidden rotation_26 0 0 1 1.2626481154152877e-06
+  hidden rotation_27 0.6839436420694862 0.6839413919944859 0.2538607232113142 2.6444350112639263
+  hidden position_27_0 0.46572551863047085
+  hidden rotation_28 0 0 1 0.31967448136952115
+  hidden position_28_0 0.19994481713537704
+  hidden rotation_29 -1 0 0 1.3708551828646212
+  hidden rotation_30 0.6839522062553705 0.6839527966759535 0.25380691771020136 2.644364871535057
+  hidden position_30_0 -0.4657256282210055
+  hidden rotation_31 0 0 -1 0.31967437177899155
+  hidden position_31_0 -0.19994565216898186
+  hidden rotation_32 -1 0 0 1.3708543478310178
+  translation -0.09603624258883614 0.18248077521462866 0.31423356649438133
+  rotation 0.10290398878206426 -0.012803198604277049 -0.99460889157409 2.86694
+  controller "myrobot"
+  plasticColor 0.772549 0.607843 0.631373
+}
+RobotisOp2 {
+  hidden position_0_0 4.4908353910892645e-08
+  hidden position_0_1 -0.09999506714498613
+  hidden position_0_2 0.09999505032434766
+  hidden position_0_3 0.859993780048363
+  hidden position_0_4 -0.8599992243975888
+  hidden rotation_10 0.5774169185958699 0.577316941601866 0.577316941600295 2.094400025936131
+  hidden position_10_0 0.34104979463933033
+  hidden rotation_11 1 0 0 0.4443502053606646
+  hidden rotation_15 0.538888654611841 0.5956508730404311 0.5956501115393265 2.1530773005566815
+  hidden position_15_0 0.001381961438124156
+  hidden rotation_16 0 0 -1 0.0013819614382119423
+  hidden position_16_0 0.7399951092581138
+  hidden rotation_17 -1 0 0 0.739995109258114
+  hidden position_17_0 -0.9999976624651119
+  hidden rotation_18 1 0 0 0.9999976624651117
+  hidden position_18_0 -0.4700021544394706
+  hidden rotation_19 -0.9999999999999999 0 0 0.47000215443947096
+  hidden position_19_0 -1.3092131276507269e-06
+  hidden rotation_20 0 0 -1 1.3092686317258589e-06
+  hidden rotation_21 0.6157917570798964 0.5571360273195545 0.5571354942696064 2.0376781376331734
+  hidden position_21_0 -1.6636910357576745e-05
+  hidden rotation_22 0 0 1 1.6636904569252806e-05
+  hidden position_22_0 -0.7399947199981612
+  hidden rotation_23 -0.9999999999999999 0 0 0.7399947199981612
+  hidden position_23_0 0.9999977368306926
+  hidden rotation_24 1 0 0 0.9999977368306928
+  hidden position_24_0 0.47000212775542305
+  hidden rotation_25 -1 0 0 0.47000212775542255
+  hidden position_25_0 1.3080971123352066e-06
+  hidden rotation_26 0 0 1 1.3082506696968294e-06
+  hidden rotation_27 0.6839436414982237 0.6839413914233555 0.2538607262891084 2.6444350054809944
+  hidden position_27_0 0.46572533897983415
+  hidden rotation_28 0 0 1 0.3196746610201599
+  hidden position_28_0 0.19994429050451024
+  hidden rotation_29 -1 0 0 1.370855709495489
+  hidden rotation_30 0.6839522061402414 0.6839527965607742 0.25380691833083063 2.644364870368936
+  hidden position_30_0 -0.465725767643155
+  hidden rotation_31 0 0 -1 0.31967423235683645
+  hidden position_31_0 -0.19994598347506448
+  hidden rotation_32 -1 0 0 1.3708540165249352
+  translation -0.112795 -0.213695 0.314417
+  rotation -0.10169503965758048 -0.01867130728116999 0.994640387875666 2.98141
+  controller "myrobot"
+  plasticColor 0.54902 0.635294 0.694118
+}
